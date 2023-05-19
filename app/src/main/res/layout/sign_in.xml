@@ -8,31 +8,26 @@
     tools:layout_editor_absoluteX="-79dp"
     tools:layout_editor_absoluteY="-41dp">
 
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="162dp"
-        android:layout_height="224dp"
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="184dp"
+        android:background="@drawable/wave"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/bot"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintVertical_bias="0.0"></LinearLayout>
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="160dp"
+        android:layout_marginTop="168dp"
         android:fontFamily="@font/poppinsreg"
         android:text="Welcome,"
         android:textColor="#040404"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -111,7 +106,7 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.416" />
+        app:layout_constraintVertical_bias="0.455" />
 
     <EditText
         android:id="@+id/editTextPassword"
@@ -135,11 +130,12 @@
         android:id="@+id/staySignedIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:text="Stay Signed In"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/poppinsreg"
+        android:text="Stay Signed In"
         app:buttonTint="@drawable/checkbox_tint"
         app:layout_constraintEnd_toEndOf="@+id/login_button"
+        app:layout_constraintHorizontal_bias="0.352"
         app:layout_constraintStart_toStartOf="@+id/login_button"
         app:layout_constraintTop_toBottomOf="@+id/login_button" />
 
@@ -147,7 +143,7 @@
         android:id="@+id/login_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="104dp"
         android:width="200dp"
         android:background="@drawable/gradientbutton"
         android:clickable="true"
